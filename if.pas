@@ -1,5 +1,5 @@
 // EXEMPLO 01 - ESTRUTURA CONDICIONAL
-Program Media;
+Program Media_Aluno;
 
 var p1,p2,p3,p4,media:real;
 
