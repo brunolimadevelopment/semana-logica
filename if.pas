@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// EXEMPLO 01 - ESTRUTURA CONDICIONAL
+>>>>>>> 26e501280e5197339ae9bc4ea7399c35f2216e0c
 Program Media_Aluno;
 
 var nota1,nota2,nota3,media:real;
@@ -27,6 +31,10 @@ begin
         begin
             writeln('Sua nota foi otima');
         end;
+<<<<<<< HEAD
 
 
 end.
+=======
+end.
+>>>>>>> 26e501280e5197339ae9bc4ea7399c35f2216e0c
