@@ -1,42 +1,32 @@
-// EXEMPLO 01 - ESTRUTURA CONDICIONAL
-Program Media;
+Program Media_Aluno;
 
-var p1,p2,p3,p4,media:real;
+var nota1,nota2,nota3,media:real;
 
 begin
-    writeln('Digite a nota da prova 1');
-    read(p1);
-    writeln('Digite a nota da prova 2');
-    read(p2);
-    writeln('Digite a nota da prova 3');
-    read(p3);
-    writeln('Digite a nota da prova 4');
-    read(p4);
-    media:= (p1+p2+p3+p4)/4;
+    
+    writeln('Qual foi a nota 1?');
+    read(nota1);
+    writeln('Qual foi a nota 2?');
+    read(nota2);
+    writeln('Qual foi a nota 3?');
+    read(nota3);
 
-    if media <= 2 then
+    media := (nota1+nota2+nota3)/3;
+
+    if media < 6 then
         begin
-            writeln('Media Pessima');
+            writeln('Sua nota foi ruim');
             read(media);
         end
-    else if(media > 2) and (media <= 4) then
+    else if (media >= 6) and (media <= 8) then
         begin
-            writeln('Media Ruim');
+            writeln('Sua nota foi boa');
             read(media);
         end
-    else if(media > 4) and (media <= 6) then
+    else if media > 8 then
         begin
-            writeln('Media Regular');
-            read(Media);
-        end
-    else if (media > 6) and (media <= 8) then
-        begin
-            writeln('Media Boa');
-            read(media);
-        end
-    else if (media > 8) and (media <=  10) then
-        begin
-            writeln('Media Excelente');
-            read(media);
+            writeln('Sua nota foi otima');
         end;
+
+
 end.
